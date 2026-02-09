@@ -1,0 +1,20 @@
+# Agentic RAG - Confluence Knowledge Base
+
+# MCP Server
+mcp>=0.9.0
+
+# Confluence API
+requests>=2.31.0
+
+# Vector Database
+pinecone>=4.0.0
+
+# OpenAI
+openai>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

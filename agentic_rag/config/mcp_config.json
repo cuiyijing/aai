@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "knowledge-source": {
+      "command": "python",
+      "args": ["-m", "agentic_rag.mcp_servers.knowledge_source.server"],
+      "env": {
+        "CONFLUENCE_URL": "https://your-domain.atlassian.net",
+        "CONFLUENCE_EMAIL": "your-email@company.com",
+        "CONFLUENCE_API_TOKEN": "${CONFLUENCE_API_TOKEN}",
+        "PINECONE_API_KEY": "${PINECONE_API_KEY}",
+        "PINECONE_HOST": "https://xxx.pinecone.io",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    }
+  }
+}
