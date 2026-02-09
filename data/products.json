@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "SKU-001",
+      "name": "Wireless Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "id": "SKU-002",
+      "name": "Coffee Mug",
+      "price": 12.50,
+      "category": "Kitchen",
+      "in_stock": true
+    },
+    {
+      "id": "SKU-003",
+      "name": "Notebook",
+      "price": 5.99,
+      "category": "Office Supplies",
+      "in_stock": false
+    }
+  ]
+}
