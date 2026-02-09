@@ -1,0 +1,12 @@
+app:
+  name: "My Application"
+  version: "1.0.0"
+  debug: false
+database:
+  host: "localhost"
+  port: 5432
+  name: "myapp_db"
+features:
+  dark_mode: true
+  notifications: true
+  two_factor_auth: false
